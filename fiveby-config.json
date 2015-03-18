@@ -1,0 +1,8 @@
+{
+  "implicitWait": 5000,
+  "hubUrl": null,
+  "browsers": {
+    "phantomjs": 1,
+    "chrome": 1
+  }
+}
