@@ -9,7 +9,7 @@ module.exports = LoginPage;
       }
     }
 
-    LoginPage.url = "http://www.4-life.com";
+    LoginPage.url = "http://www.4-life.com/corp/Account/Login";
     // The login page contains several HTML elements that will be represented as WebElements.
     // The locators for these elements should only be defined once.
     LoginPage.usernameLocator = by.css(".Username");

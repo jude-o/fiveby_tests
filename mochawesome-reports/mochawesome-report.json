@@ -6,9 +6,9 @@
     "passes": 4,
     "pending": 0,
     "failures": 2,
-    "start": "2015-03-18T22:03:51.130Z",
-    "end": "2015-03-18T22:04:19.713Z",
-    "duration": 28583,
+    "start": "2015-03-18T22:20:56.562Z",
+    "end": "2015-03-18T22:21:25.094Z",
+    "duration": 28532,
     "testsRegistered": 6,
     "passPercent": 66.7,
     "pendingPercent": 0,
@@ -30,7 +30,7 @@
             "title": "All direct children of controls should have form-control class",
             "fullTitle": "BootStrap Control Sizing Example in phantomjs All direct children of controls should have form-control class",
             "timedOut": false,
-            "duration": 277,
+            "duration": 264,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -38,8 +38,8 @@
             "pending": false,
             "code": "<span class=\"hljs-keyword\">var</span> cs = <span class=\"hljs-keyword\">new</span> ControlSizing(browser);\n<span class=\"hljs-keyword\">return</span> promise.map(cs.getInputs(), <span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(elem)</span> </span>{ <span class=\"hljs-comment\">// use promise helpers map, all, etc..</span>\n  elem.getAttribute(<span class=\"hljs-string\">'class'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n    value.should.containEql(<span class=\"hljs-string\">'form-control'</span>); <span class=\"hljs-comment\">// using advanced should asserts where applicable</span>\n  });\n});",
             "isRoot": false,
-            "uuid": "bf5f144f-dc5a-48f9-991e-7c2dc2b5d656",
-            "parentUUID": "3936fdea-0b11-4bed-990c-b075f873773a",
+            "uuid": "113bddcd-7808-45a4-a4be-94993f3e22f1",
+            "parentUUID": "32625d93-1909-4d63-8b1e-e8a93f60bd42",
             "skipped": false
           }
         ],
@@ -47,7 +47,7 @@
         "root": false,
         "_timeout": 30000,
         "file": "\\tests\\bootstrap.js",
-        "uuid": "3936fdea-0b11-4bed-990c-b075f873773a",
+        "uuid": "32625d93-1909-4d63-8b1e-e8a93f60bd42",
         "fullFile": "C:\\Tests\\tests\\bootstrap.js",
         "passes": [
           "[Circular ~.suites.suites.0.tests.0]"
@@ -65,7 +65,7 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 277
+        "duration": 264
       },
       {
         "title": "BootStrap Control Sizing Example in chrome",
@@ -75,7 +75,7 @@
             "title": "All direct children of controls should have form-control class",
             "fullTitle": "BootStrap Control Sizing Example in chrome All direct children of controls should have form-control class",
             "timedOut": false,
-            "duration": 1243,
+            "duration": 656,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -83,8 +83,8 @@
             "pending": false,
             "code": "<span class=\"hljs-keyword\">var</span> cs = <span class=\"hljs-keyword\">new</span> ControlSizing(browser);\n<span class=\"hljs-keyword\">return</span> promise.map(cs.getInputs(), <span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(elem)</span> </span>{ <span class=\"hljs-comment\">// use promise helpers map, all, etc..</span>\n  elem.getAttribute(<span class=\"hljs-string\">'class'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n    value.should.containEql(<span class=\"hljs-string\">'form-control'</span>); <span class=\"hljs-comment\">// using advanced should asserts where applicable</span>\n  });\n});",
             "isRoot": false,
-            "uuid": "7b648321-e2bb-4d24-ba8c-1e4e200c0315",
-            "parentUUID": "ca21eefb-7cc6-492e-ac3b-67bf74d73d92",
+            "uuid": "5a962af5-5575-4521-b9fc-f0cab67bb888",
+            "parentUUID": "61239260-1abe-4a66-ae58-9fd2a63c0720",
             "skipped": false
           }
         ],
@@ -92,7 +92,7 @@
         "root": false,
         "_timeout": 30000,
         "file": "\\tests\\bootstrap.js",
-        "uuid": "ca21eefb-7cc6-492e-ac3b-67bf74d73d92",
+        "uuid": "61239260-1abe-4a66-ae58-9fd2a63c0720",
         "fullFile": "C:\\Tests\\tests\\bootstrap.js",
         "passes": [
           "[Circular ~.suites.suites.1.tests.0]"
@@ -110,7 +110,7 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 1243
+        "duration": 656
       },
       {
         "title": "Confirm login works in phantomjs",
@@ -132,8 +132,8 @@
               "stack": "TypeError: Cannot call method 'get' of undefined\n    at Function.LoginPage.visit (C:\\Tests\\components\\log-in.js:22:27)\n    at Context.<anonymous> (C:\\Tests\\tests\\login.js:9:14)\n    at callFn (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:251:21)\n    at Test.Runnable.run (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at Runner.runTest (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:374:10)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:452:12\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:299:14)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:309:7\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:248:23)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:271:7\n    at done (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:207:5)\n    at callFn (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:262:7)\n    at Hook.Runnable.run (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:259:10)\n    at Object._onImmediate (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:276:5)\n    at processImmediate [as _immediateCallback] (timers.js:345:15)"
             },
             "isRoot": false,
-            "uuid": "45368722-b551-4d59-a91e-6734ce78f507",
-            "parentUUID": "796cb487-7814-4d06-a822-423968f040de",
+            "uuid": "d3aa7076-0e70-4f09-a6ed-53e3a616999f",
+            "parentUUID": "f7076511-187a-4431-8ae0-8a9daec5d2a8",
             "skipped": false
           }
         ],
@@ -141,7 +141,7 @@
         "root": false,
         "_timeout": 30000,
         "file": "\\tests\\login.js",
-        "uuid": "796cb487-7814-4d06-a822-423968f040de",
+        "uuid": "f7076511-187a-4431-8ae0-8a9daec5d2a8",
         "fullFile": "C:\\Tests\\tests\\login.js",
         "passes": [],
         "failures": [
@@ -181,8 +181,8 @@
               "stack": "TypeError: Cannot call method 'get' of undefined\n    at Function.LoginPage.visit (C:\\Tests\\components\\log-in.js:22:27)\n    at Context.<anonymous> (C:\\Tests\\tests\\login.js:9:14)\n    at callFn (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:251:21)\n    at Test.Runnable.run (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at Runner.runTest (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:374:10)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:452:12\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:299:14)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:309:7\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:248:23)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:271:7\n    at done (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:207:5)\n    at callFn (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:262:7)\n    at Hook.Runnable.run (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:259:10)\n    at Object._onImmediate (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:276:5)\n    at processImmediate [as _immediateCallback] (timers.js:345:15)"
             },
             "isRoot": false,
-            "uuid": "87bbd578-be37-48db-9cc2-1fe6a2b99095",
-            "parentUUID": "b5c59f0b-9773-4717-8180-d2bf1234684f",
+            "uuid": "0b033c37-e9f2-4beb-bdbb-337a17b7adc1",
+            "parentUUID": "fa43254e-8516-42d1-a5f2-dce0efa889ed",
             "skipped": false
           }
         ],
@@ -190,7 +190,7 @@
         "root": false,
         "_timeout": 30000,
         "file": "\\tests\\login.js",
-        "uuid": "b5c59f0b-9773-4717-8180-d2bf1234684f",
+        "uuid": "fa43254e-8516-42d1-a5f2-dce0efa889ed",
         "fullFile": "C:\\Tests\\tests\\login.js",
         "passes": [],
         "failures": [
@@ -218,7 +218,7 @@
             "title": "should work",
             "fullTitle": "Google Search in phantomjs should work",
             "timedOut": false,
-            "duration": 667,
+            "duration": 613,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -226,8 +226,8 @@
             "pending": false,
             "code": "browser.get(<span class=\"hljs-string\">'http://www.google.com'</span>);\n<span class=\"hljs-keyword\">var</span> searchBox = browser.findElement(by.name(<span class=\"hljs-string\">'q'</span>));\nsearchBox.sendKeys(<span class=\"hljs-string\">'awesome'</span>);\n<span class=\"hljs-keyword\">return</span> searchBox.getAttribute(<span class=\"hljs-string\">'value'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n  <span class=\"hljs-string\">'awesome'</span>.should.equal(value);\n});",
             "isRoot": false,
-            "uuid": "8f258a01-3753-4ad6-990a-a17f0c1655cf",
-            "parentUUID": "1f0dd3de-6efa-453f-b9e6-53740b5b246d",
+            "uuid": "45b459d3-7aaf-4eeb-8676-7d34d83bdf0b",
+            "parentUUID": "180e1a8a-ebe6-47fe-a51a-deb7a153e5aa",
             "skipped": false
           }
         ],
@@ -235,7 +235,7 @@
         "root": false,
         "_timeout": 30000,
         "file": "\\tests\\smoke\\google.js",
-        "uuid": "1f0dd3de-6efa-453f-b9e6-53740b5b246d",
+        "uuid": "180e1a8a-ebe6-47fe-a51a-deb7a153e5aa",
         "fullFile": "C:\\Tests\\tests\\smoke\\google.js",
         "passes": [
           "[Circular ~.suites.suites.4.tests.0]"
@@ -253,7 +253,7 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 667
+        "duration": 613
       },
       {
         "title": "Google Search in chrome",
@@ -263,7 +263,7 @@
             "title": "should work",
             "fullTitle": "Google Search in chrome should work",
             "timedOut": false,
-            "duration": 3636,
+            "duration": 3279,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -271,8 +271,8 @@
             "pending": false,
             "code": "browser.get(<span class=\"hljs-string\">'http://www.google.com'</span>);\n<span class=\"hljs-keyword\">var</span> searchBox = browser.findElement(by.name(<span class=\"hljs-string\">'q'</span>));\nsearchBox.sendKeys(<span class=\"hljs-string\">'awesome'</span>);\n<span class=\"hljs-keyword\">return</span> searchBox.getAttribute(<span class=\"hljs-string\">'value'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n  <span class=\"hljs-string\">'awesome'</span>.should.equal(value);\n});",
             "isRoot": false,
-            "uuid": "b6d748eb-2df6-4398-a442-190a547f27db",
-            "parentUUID": "3fd9f88b-613b-4cea-a1dd-04320864ae7a",
+            "uuid": "9956d572-0f40-47b2-b5af-d9effab4d228",
+            "parentUUID": "744e2367-56cf-41fd-8756-94383abe30b7",
             "skipped": false
           }
         ],
@@ -280,7 +280,7 @@
         "root": false,
         "_timeout": 30000,
         "file": "\\tests\\smoke\\google.js",
-        "uuid": "3fd9f88b-613b-4cea-a1dd-04320864ae7a",
+        "uuid": "744e2367-56cf-41fd-8756-94383abe30b7",
         "fullFile": "C:\\Tests\\tests\\smoke\\google.js",
         "passes": [
           "[Circular ~.suites.suites.5.tests.0]"
@@ -298,14 +298,14 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 3636
+        "duration": 3279
       }
     ],
     "tests": [],
     "pending": [],
     "root": true,
     "_timeout": 30000,
-    "uuid": "26dbb3e6-547c-49ec-9f31-c8e97fc64e59",
+    "uuid": "363560ea-c429-4c28-a87f-7565513d8a56",
     "fullFile": "",
     "file": "",
     "passes": [],
@@ -330,7 +330,7 @@
       "title": "All direct children of controls should have form-control class",
       "fullTitle": "BootStrap Control Sizing Example in phantomjs All direct children of controls should have form-control class",
       "timedOut": false,
-      "duration": 277,
+      "duration": 264,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -338,15 +338,15 @@
       "pending": false,
       "code": "<span class=\"hljs-keyword\">var</span> cs = <span class=\"hljs-keyword\">new</span> ControlSizing(browser);\n<span class=\"hljs-keyword\">return</span> promise.map(cs.getInputs(), <span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(elem)</span> </span>{ <span class=\"hljs-comment\">// use promise helpers map, all, etc..</span>\n  elem.getAttribute(<span class=\"hljs-string\">'class'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n    value.should.containEql(<span class=\"hljs-string\">'form-control'</span>); <span class=\"hljs-comment\">// using advanced should asserts where applicable</span>\n  });\n});",
       "isRoot": false,
-      "uuid": "a93a10e8-0a03-445e-b140-f576ea49e586",
-      "parentUUID": "3936fdea-0b11-4bed-990c-b075f873773a",
+      "uuid": "4519c9ec-6453-48ec-8542-ab5e71917ef4",
+      "parentUUID": "32625d93-1909-4d63-8b1e-e8a93f60bd42",
       "skipped": false
     },
     {
       "title": "All direct children of controls should have form-control class",
       "fullTitle": "BootStrap Control Sizing Example in chrome All direct children of controls should have form-control class",
       "timedOut": false,
-      "duration": 1243,
+      "duration": 656,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -354,8 +354,8 @@
       "pending": false,
       "code": "<span class=\"hljs-keyword\">var</span> cs = <span class=\"hljs-keyword\">new</span> ControlSizing(browser);\n<span class=\"hljs-keyword\">return</span> promise.map(cs.getInputs(), <span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(elem)</span> </span>{ <span class=\"hljs-comment\">// use promise helpers map, all, etc..</span>\n  elem.getAttribute(<span class=\"hljs-string\">'class'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n    value.should.containEql(<span class=\"hljs-string\">'form-control'</span>); <span class=\"hljs-comment\">// using advanced should asserts where applicable</span>\n  });\n});",
       "isRoot": false,
-      "uuid": "309531b2-47b6-43b5-a1ab-b72c811d6daf",
-      "parentUUID": "ca21eefb-7cc6-492e-ac3b-67bf74d73d92",
+      "uuid": "ef64b23d-2c4c-4362-b0bf-a6a5dc5d8945",
+      "parentUUID": "61239260-1abe-4a66-ae58-9fd2a63c0720",
       "skipped": false
     },
     {
@@ -374,8 +374,8 @@
         "stack": "TypeError: Cannot call method 'get' of undefined\n    at Function.LoginPage.visit (C:\\Tests\\components\\log-in.js:22:27)\n    at Context.<anonymous> (C:\\Tests\\tests\\login.js:9:14)\n    at callFn (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:251:21)\n    at Test.Runnable.run (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at Runner.runTest (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:374:10)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:452:12\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:299:14)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:309:7\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:248:23)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:271:7\n    at done (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:207:5)\n    at callFn (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:262:7)\n    at Hook.Runnable.run (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:259:10)\n    at Object._onImmediate (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:276:5)\n    at processImmediate [as _immediateCallback] (timers.js:345:15)"
       },
       "isRoot": false,
-      "uuid": "b0aecc57-ef1a-4ae1-b77a-ed8f35022a50",
-      "parentUUID": "796cb487-7814-4d06-a822-423968f040de",
+      "uuid": "300f4134-884b-4db1-8d4b-dd0ea5bf8bfa",
+      "parentUUID": "f7076511-187a-4431-8ae0-8a9daec5d2a8",
       "skipped": false
     },
     {
@@ -394,15 +394,15 @@
         "stack": "TypeError: Cannot call method 'get' of undefined\n    at Function.LoginPage.visit (C:\\Tests\\components\\log-in.js:22:27)\n    at Context.<anonymous> (C:\\Tests\\tests\\login.js:9:14)\n    at callFn (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:251:21)\n    at Test.Runnable.run (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at Runner.runTest (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:374:10)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:452:12\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:299:14)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:309:7\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:248:23)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:271:7\n    at done (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:207:5)\n    at callFn (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:262:7)\n    at Hook.Runnable.run (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:259:10)\n    at Object._onImmediate (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:276:5)\n    at processImmediate [as _immediateCallback] (timers.js:345:15)"
       },
       "isRoot": false,
-      "uuid": "b81860e2-d188-4163-aafb-40eb010a0657",
-      "parentUUID": "b5c59f0b-9773-4717-8180-d2bf1234684f",
+      "uuid": "4b551131-de97-4b76-85be-9e351254c4ea",
+      "parentUUID": "fa43254e-8516-42d1-a5f2-dce0efa889ed",
       "skipped": false
     },
     {
       "title": "should work",
       "fullTitle": "Google Search in phantomjs should work",
       "timedOut": false,
-      "duration": 667,
+      "duration": 613,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -410,15 +410,15 @@
       "pending": false,
       "code": "browser.get(<span class=\"hljs-string\">'http://www.google.com'</span>);\n<span class=\"hljs-keyword\">var</span> searchBox = browser.findElement(by.name(<span class=\"hljs-string\">'q'</span>));\nsearchBox.sendKeys(<span class=\"hljs-string\">'awesome'</span>);\n<span class=\"hljs-keyword\">return</span> searchBox.getAttribute(<span class=\"hljs-string\">'value'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n  <span class=\"hljs-string\">'awesome'</span>.should.equal(value);\n});",
       "isRoot": false,
-      "uuid": "60785c87-1f09-477e-9eb1-016627477b65",
-      "parentUUID": "1f0dd3de-6efa-453f-b9e6-53740b5b246d",
+      "uuid": "b7c6d657-7ce0-4b5c-a516-91584ed8e210",
+      "parentUUID": "180e1a8a-ebe6-47fe-a51a-deb7a153e5aa",
       "skipped": false
     },
     {
       "title": "should work",
       "fullTitle": "Google Search in chrome should work",
       "timedOut": false,
-      "duration": 3636,
+      "duration": 3279,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -426,8 +426,8 @@
       "pending": false,
       "code": "browser.get(<span class=\"hljs-string\">'http://www.google.com'</span>);\n<span class=\"hljs-keyword\">var</span> searchBox = browser.findElement(by.name(<span class=\"hljs-string\">'q'</span>));\nsearchBox.sendKeys(<span class=\"hljs-string\">'awesome'</span>);\n<span class=\"hljs-keyword\">return</span> searchBox.getAttribute(<span class=\"hljs-string\">'value'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n  <span class=\"hljs-string\">'awesome'</span>.should.equal(value);\n});",
       "isRoot": false,
-      "uuid": "4be7365b-e675-418f-b499-26e88a95ff35",
-      "parentUUID": "3fd9f88b-613b-4cea-a1dd-04320864ae7a",
+      "uuid": "1311cbf6-9ba2-41f0-a9f3-b1f4b0dd9545",
+      "parentUUID": "744e2367-56cf-41fd-8756-94383abe30b7",
       "skipped": false
     }
   ],
@@ -461,13 +461,13 @@
             "_idleTimeout": -1,
             "_idlePrev": null,
             "_idleNext": null,
-            "_idleStart": 1426716237054,
-            "_monotonicStartTime": 608017609,
+            "_idleStart": 1426717262448,
+            "_monotonicStartTime": 609043031,
             "_onTimeout": null,
             "_repeat": false,
             "ontimeout": null
           },
-          "duration": 2517,
+          "duration": 2236,
           "_error": null
         },
         "test": "[Circular ~.allHooks.0.ctx._runnable]"
@@ -477,13 +477,13 @@
         "_idleTimeout": -1,
         "_idlePrev": null,
         "_idleNext": null,
-        "_idleStart": 1426716231140,
-        "_monotonicStartTime": 608011687,
+        "_idleStart": 1426717256569,
+        "_monotonicStartTime": 609037156,
         "_onTimeout": null,
         "_repeat": false,
         "ontimeout": null
       },
-      "duration": 5635,
+      "duration": 5613,
       "_error": null
     },
     {
@@ -532,13 +532,13 @@
             "_idleTimeout": -1,
             "_idlePrev": null,
             "_idleNext": null,
-            "_idleStart": 1426716243990,
-            "_monotonicStartTime": 608024546,
+            "_idleStart": 1426717268963,
+            "_monotonicStartTime": 609049546,
             "_onTimeout": null,
             "_repeat": false,
             "ontimeout": null
           },
-          "duration": 3299,
+          "duration": 3345,
           "_error": null
         },
         "test": "[Circular ~.allHooks.3.ctx._runnable]"
@@ -548,13 +548,13 @@
         "_idleTimeout": -1,
         "_idlePrev": null,
         "_idleNext": null,
-        "_idleStart": 1426716239573,
-        "_monotonicStartTime": 608020125,
+        "_idleStart": 1426717264682,
+        "_monotonicStartTime": 609045265,
         "_onTimeout": null,
         "_repeat": false,
         "ontimeout": null
       },
-      "duration": 3172,
+      "duration": 3620,
       "_error": null
     },
     {
@@ -570,7 +570,7 @@
       "parent": "[Circular ~.suites.suites.1]",
       "ctx": "[Circular ~.allHooks.3.ctx]",
       "_events": {},
-      "duration": 0,
+      "duration": 1,
       "_error": null
     },
     "[Circular ~.allHooks.3.ctx._runnable]",
@@ -603,19 +603,19 @@
             "_idleTimeout": -1,
             "_idlePrev": null,
             "_idleNext": null,
-            "_idleStart": 1426716247297,
-            "_monotonicStartTime": 608027843,
+            "_idleStart": 1426717272317,
+            "_monotonicStartTime": 609052890,
             "_onTimeout": null,
             "_repeat": false,
             "ontimeout": null
           },
-          "duration": 2251,
+          "duration": 2276,
           "_error": null
         },
         "test": "[Circular ~.allHooks.6.ctx._runnable]"
       },
       "_events": {},
-      "duration": 0,
+      "duration": 1,
       "_error": null
     },
     "[Circular ~.allHooks.6.ctx._runnable]",
@@ -648,13 +648,13 @@
             "_idleTimeout": -1,
             "_idlePrev": null,
             "_idleNext": null,
-            "_idleStart": 1426716249549,
-            "_monotonicStartTime": 608030109,
+            "_idleStart": 1426717274594,
+            "_monotonicStartTime": 609055171,
             "_onTimeout": null,
             "_repeat": false,
             "ontimeout": null
           },
-          "duration": 3241,
+          "duration": 3249,
           "_error": null
         },
         "test": "[Circular ~.allHooks.8.ctx._runnable]"
@@ -693,19 +693,19 @@
             "_idleTimeout": -1,
             "_idlePrev": null,
             "_idleNext": null,
-            "_idleStart": 1426716253459,
-            "_monotonicStartTime": 608034015,
+            "_idleStart": 1426717278459,
+            "_monotonicStartTime": 609059046,
             "_onTimeout": null,
             "_repeat": false,
             "ontimeout": null
           },
-          "duration": 1482,
+          "duration": 2211,
           "_error": null
         },
         "test": "[Circular ~.allHooks.10.ctx._runnable]"
       },
       "_events": {},
-      "duration": 0,
+      "duration": 1,
       "_error": null
     },
     "[Circular ~.allHooks.10.ctx._runnable]",
@@ -738,13 +738,13 @@
             "_idleTimeout": -1,
             "_idlePrev": null,
             "_idleNext": null,
-            "_idleStart": 1426716258578,
-            "_monotonicStartTime": 608039125,
+            "_idleStart": 1426717283950,
+            "_monotonicStartTime": 609064531,
             "_onTimeout": null,
             "_repeat": false,
             "ontimeout": null
           },
-          "duration": 1135,
+          "duration": 1143,
           "_error": null
         },
         "test": "[Circular ~.allHooks.12.ctx._runnable]"
@@ -761,7 +761,7 @@
       "title": "All direct children of controls should have form-control class",
       "fullTitle": "BootStrap Control Sizing Example in phantomjs All direct children of controls should have form-control class",
       "timedOut": false,
-      "duration": 277,
+      "duration": 264,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -769,15 +769,15 @@
       "pending": false,
       "code": "<span class=\"hljs-keyword\">var</span> cs = <span class=\"hljs-keyword\">new</span> ControlSizing(browser);\n<span class=\"hljs-keyword\">return</span> promise.map(cs.getInputs(), <span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(elem)</span> </span>{ <span class=\"hljs-comment\">// use promise helpers map, all, etc..</span>\n  elem.getAttribute(<span class=\"hljs-string\">'class'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n    value.should.containEql(<span class=\"hljs-string\">'form-control'</span>); <span class=\"hljs-comment\">// using advanced should asserts where applicable</span>\n  });\n});",
       "isRoot": false,
-      "uuid": "4e4cf927-73a4-4fea-9032-bdb6aea3ef81",
-      "parentUUID": "3936fdea-0b11-4bed-990c-b075f873773a",
+      "uuid": "7fb68ede-d61a-4b21-b8c8-465cb64693d0",
+      "parentUUID": "32625d93-1909-4d63-8b1e-e8a93f60bd42",
       "skipped": false
     },
     {
       "title": "All direct children of controls should have form-control class",
       "fullTitle": "BootStrap Control Sizing Example in chrome All direct children of controls should have form-control class",
       "timedOut": false,
-      "duration": 1243,
+      "duration": 656,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -785,15 +785,15 @@
       "pending": false,
       "code": "<span class=\"hljs-keyword\">var</span> cs = <span class=\"hljs-keyword\">new</span> ControlSizing(browser);\n<span class=\"hljs-keyword\">return</span> promise.map(cs.getInputs(), <span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(elem)</span> </span>{ <span class=\"hljs-comment\">// use promise helpers map, all, etc..</span>\n  elem.getAttribute(<span class=\"hljs-string\">'class'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n    value.should.containEql(<span class=\"hljs-string\">'form-control'</span>); <span class=\"hljs-comment\">// using advanced should asserts where applicable</span>\n  });\n});",
       "isRoot": false,
-      "uuid": "f4e61085-69d6-4c37-a43b-b5cfb7ba0960",
-      "parentUUID": "ca21eefb-7cc6-492e-ac3b-67bf74d73d92",
+      "uuid": "9125753e-5c20-4b39-873f-8cbe3a803aaf",
+      "parentUUID": "61239260-1abe-4a66-ae58-9fd2a63c0720",
       "skipped": false
     },
     {
       "title": "should work",
       "fullTitle": "Google Search in phantomjs should work",
       "timedOut": false,
-      "duration": 667,
+      "duration": 613,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -801,15 +801,15 @@
       "pending": false,
       "code": "browser.get(<span class=\"hljs-string\">'http://www.google.com'</span>);\n<span class=\"hljs-keyword\">var</span> searchBox = browser.findElement(by.name(<span class=\"hljs-string\">'q'</span>));\nsearchBox.sendKeys(<span class=\"hljs-string\">'awesome'</span>);\n<span class=\"hljs-keyword\">return</span> searchBox.getAttribute(<span class=\"hljs-string\">'value'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n  <span class=\"hljs-string\">'awesome'</span>.should.equal(value);\n});",
       "isRoot": false,
-      "uuid": "6be6f294-50bf-42cf-8bb9-6969fac7be0f",
-      "parentUUID": "1f0dd3de-6efa-453f-b9e6-53740b5b246d",
+      "uuid": "72ff441e-fd09-47c0-8f4c-cda96380148e",
+      "parentUUID": "180e1a8a-ebe6-47fe-a51a-deb7a153e5aa",
       "skipped": false
     },
     {
       "title": "should work",
       "fullTitle": "Google Search in chrome should work",
       "timedOut": false,
-      "duration": 3636,
+      "duration": 3279,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -817,8 +817,8 @@
       "pending": false,
       "code": "browser.get(<span class=\"hljs-string\">'http://www.google.com'</span>);\n<span class=\"hljs-keyword\">var</span> searchBox = browser.findElement(by.name(<span class=\"hljs-string\">'q'</span>));\nsearchBox.sendKeys(<span class=\"hljs-string\">'awesome'</span>);\n<span class=\"hljs-keyword\">return</span> searchBox.getAttribute(<span class=\"hljs-string\">'value'</span>).then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-params\">(value)</span> </span>{\n  <span class=\"hljs-string\">'awesome'</span>.should.equal(value);\n});",
       "isRoot": false,
-      "uuid": "3eea3bd8-08dc-4f24-b6fb-26f92a817b4d",
-      "parentUUID": "3fd9f88b-613b-4cea-a1dd-04320864ae7a",
+      "uuid": "ff4b3ced-03a4-4ba7-8ee8-6f0b69609a88",
+      "parentUUID": "744e2367-56cf-41fd-8756-94383abe30b7",
       "skipped": false
     }
   ],
@@ -839,8 +839,8 @@
         "stack": "TypeError: Cannot call method 'get' of undefined\n    at Function.LoginPage.visit (C:\\Tests\\components\\log-in.js:22:27)\n    at Context.<anonymous> (C:\\Tests\\tests\\login.js:9:14)\n    at callFn (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:251:21)\n    at Test.Runnable.run (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at Runner.runTest (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:374:10)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:452:12\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:299:14)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:309:7\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:248:23)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:271:7\n    at done (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:207:5)\n    at callFn (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:262:7)\n    at Hook.Runnable.run (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:259:10)\n    at Object._onImmediate (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:276:5)\n    at processImmediate [as _immediateCallback] (timers.js:345:15)"
       },
       "isRoot": false,
-      "uuid": "d5436872-3a2b-42bf-b3dc-60ad41305f54",
-      "parentUUID": "796cb487-7814-4d06-a822-423968f040de",
+      "uuid": "cd31b2e9-91d7-41f7-9f42-91e91117c665",
+      "parentUUID": "f7076511-187a-4431-8ae0-8a9daec5d2a8",
       "skipped": false
     },
     {
@@ -859,8 +859,8 @@
         "stack": "TypeError: Cannot call method 'get' of undefined\n    at Function.LoginPage.visit (C:\\Tests\\components\\log-in.js:22:27)\n    at Context.<anonymous> (C:\\Tests\\tests\\login.js:9:14)\n    at callFn (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:251:21)\n    at Test.Runnable.run (C:\\Tests\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at Runner.runTest (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:374:10)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:452:12\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:299:14)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:309:7\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:248:23)\n    at C:\\Tests\\node_modules\\mocha\\lib\\runner.js:271:7\n    at done (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:207:5)\n    at callFn (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:262:7)\n    at Hook.Runnable.run (C:\\Tests\\node_modules\\fiveby\\node_modules\\mocha\\lib\\runnable.js:244:7)\n    at next (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:259:10)\n    at Object._onImmediate (C:\\Tests\\node_modules\\mocha\\lib\\runner.js:276:5)\n    at processImmediate [as _immediateCallback] (timers.js:345:15)"
       },
       "isRoot": false,
-      "uuid": "4c17d323-99b1-49c4-bfd8-2c34e0f835d6",
-      "parentUUID": "b5c59f0b-9773-4717-8180-d2bf1234684f",
+      "uuid": "cc8fcc4b-e34f-482e-93e9-21ab1b10938b",
+      "parentUUID": "fa43254e-8516-42d1-a5f2-dce0efa889ed",
       "skipped": false
     }
   ]
